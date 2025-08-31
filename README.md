@@ -1,4 +1,5 @@
 # www.sandra-postma.nl
+A Vue.js website.
 
 ## Update node on MacOS
 ```sh
