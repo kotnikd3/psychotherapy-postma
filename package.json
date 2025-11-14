@@ -1,17 +1,17 @@
 {
-  "name": "sandra-postma",
+  "name": "psychotherapy-postma",
   "version": "1.0.0",
-  "description": "Sandra Postma's website",
+  "description": "Psychotherapy Postma website",
   "author": "Denis Kotnik",
-  "license": "copyleft",
+  "license": "copyright",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kotnikd3/sandra-postma.git"
+    "url": "git+https://github.com/kotnikd3/psychotherapy-postma.git"
   },
   "homepage": "https://sandra-postma.nl/",
   "keywords": [
     "website",
-    "personal",
+    "psychotherapy",
     "sandra",
     "postma",
     "sandra postma"
