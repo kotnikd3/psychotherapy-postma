@@ -5,7 +5,7 @@
                 <RouterLink class="navbar-item" :to="{ name: 'home' }" @click="isMenuActive = false;">
                     <img src="@/assets/images/logo.webp" alt="Sandra_Postma_logo">
                 </RouterLink>
-                <h1 class="navbar-item is-size-4" v-text="t('homeTitle')"></h1>
+                <h1 class="navbar-item is-size-5" v-text="t('homeTitle')"></h1>
                 <a 
                     role="button" 
                     :class="['navbar-burger', { 'is-active' : isMenuActive }]"
