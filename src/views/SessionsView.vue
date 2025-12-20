@@ -7,7 +7,7 @@
             class="hero-bg-img"
         />
         <div class="hero-body container">
-            <h2 class="subtitle is-4 has-text-light" v-text="t('sessionsTitle')"></h2>
+            <h3 class="subtitle is-3 has-text-light" v-text="t('sessionsTitle')"></h3>
         </div>
     </section>
     <div class="section has-text-centered">

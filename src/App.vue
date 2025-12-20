@@ -79,7 +79,7 @@
                     <ul>
                         <li><a href="./static/privacy_beleid.pdf" target="_blank" rel="noopener noreferrer">Privacy Beleid</a></li>
                         <li><a href="./static/voorwaarden.pdf" target="_blank" rel="noopener noreferrer">Algemene Voorwaarden</a></li>
-                        <li><a href="./static/document_vergoedingen_2025.pdf" target="_blank" rel="noopener noreferrer">Vergoedingen Zorgverzekeraars 2025</a></li>
+                        <li><a href="./static/document_vergoedingen_2026.pdf" target="_blank" rel="noopener noreferrer">Vergoedingen Zorgverzekeraars 2026</a></li>
                         <li><br></li>
                         <li>KvK-nummer: 71289232</li>
                         <li>AGB-code praktijk: 90093781</li>
@@ -107,7 +107,7 @@
                 </div>
             </div>
             <div class="has-text-centered pt-6">
-				<p class="has-text-grey">Sandra Postma <font-awesome-icon icon="fa-regular fa-copyright" /> 2025</p>
+				<p class="has-text-grey">Sandra Postma <font-awesome-icon icon="fa-regular fa-copyright" /> 2026</p>
 				<p style="font-size: x-small;"><i><a class="has-text-grey" href="https://www.kotnik.si" target="_blank"><span v-text="t('madeBy')"></span> kotnik.si</a></i></p>
 			</div>
         </div>
@@ -137,7 +137,6 @@ export default {
     @use '@/assets/variables.scss' as *;
 
     .navbar-end .navbar-item.router-link-exact-active {
-        /* color: red; */
         background-color: $color-orange-2;
     }
 

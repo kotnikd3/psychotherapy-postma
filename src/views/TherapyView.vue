@@ -7,7 +7,7 @@
             class="hero-bg-img"
         />
         <div class="hero-body container">
-            <h2 class="subtitle is-4 has-text-light" v-html="t('therapyTitle')"></h2>
+            <h3 class="subtitle is-3 has-text-light" v-html="t('therapyTitle')"></h3>
         </div>
     </section>
     <!-- Therapy -->
