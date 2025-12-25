@@ -28,7 +28,7 @@
             <div class="block has-text-weight-bold has-text-centered" v-text="t('welcomeTextTwo')"></div>
             <div class="block" v-text="t('welcomeTextThree')"></div>
             <div class="has-text-centered">
-                <RouterLink class="button is-warning is-outlined" v-text="t('welcomeButtonText')" :to="{ name: 'therapy' }"></RouterLink>
+                <RouterLink class="button is-warning is-outlined" v-html="t('welcomeButtonText')" :to="{ name: 'therapy' }"></RouterLink>
             </div>
         </div>
     </section>
