@@ -82,11 +82,11 @@ html {
 
 body {
     font-family: 'Varela Round', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .footer {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .section:nth-child(odd) {
@@ -114,4 +114,19 @@ body {
     height: 100%;
     object-fit: cover;
     z-index: -1;
+}
+
+.is-golden-main {
+    flex: 0 0 61.8%;
+}
+
+.is-golden-side {
+    flex: 0 0 38.2%;
+}
+
+@media (max-width: 768px) {
+    .is-golden-main,
+    .is-golden-side {
+        flex: 0 0 100%;
+    }
 }

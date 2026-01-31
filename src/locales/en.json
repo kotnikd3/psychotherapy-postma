@@ -68,7 +68,7 @@
   "sessionsTitleFive": "Duration of a Therapy Process",
   "sessionsTextFive": "A therapy process consists of multiple sessions and can range from a few months to several years. The exact number of sessions is usually not predetermined; we evaluate progress along the way. The duration depends on your needs, possibilities, and the complexity of your issues.\nFor some, a short-term therapy process provides enough momentum for change and offers tools to continue independently. Others benefit from long-term therapy to work on deeper transformation. Therapy is a process that requires time to bring about lasting internal change.\n",
   "sessionsTitleSix": "Fees",
-  "sessionsTextSix": "The first intake interview costs <b class='is-size-5'>40 euro</b>.<br>The second intake interview and also all the following sessions cost <b class='is-size-5'>80 euro</b>.<br>All appointments last <b class='is-size-5'>60 minutes</b>.",
+  "sessionsTextSix": "The first intake interview costs <b class='is-size-6'>40 euro</b>.<br>The second intake interview and also all the following sessions cost <b class='is-size-6'>80 euro</b>.<br>All appointments last <b class='is-size-6'>60 minutes</b>.",
   "sessionsTitleSeven": "Reimbursement",
   "sessionsTextSeven": "Sessions are partially reimbursed through supplementary health insurance. View <a href=\"./static/document_vergoedingen_2025.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">here</a> to check the reimbursements per insurance provider.",
   "sessionsTitleEight": "Location",

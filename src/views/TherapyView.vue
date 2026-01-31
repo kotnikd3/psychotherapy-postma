@@ -7,13 +7,13 @@
             class="hero-bg-img"
         />
         <div class="hero-body container">
-            <h3 class="subtitle is-3 has-text-light" v-html="t('therapyTitle')"></h3>
+            <h3 class="subtitle is-4 has-text-light" v-html="t('therapyTitle')"></h3>
         </div>
     </section>
     <!-- Therapy -->
     <section class="section">
         <div class="container is-max-desktop">
-            <h2 class="title is-4" v-text="t('therapyTitleOne')"></h2>
+            <h2 class="title is-5" v-text="t('therapyTitleOne')"></h2>
             <div class="block has-bg-img-right" v-text="t('therapyTextOne')"></div>
 
             <!-- Button to show/hide content -->
@@ -36,7 +36,7 @@
     </section>
     <section class="section">
         <div class="container is-max-desktop">
-            <h2 class="title is-4" v-text="t('therapyTitleTwo')"></h2>
+            <h2 class="title is-5" v-text="t('therapyTitleTwo')"></h2>
             <div class="block" v-text="t('therapyTextFour')"></div>
 
             <!-- Button to show/hide content -->
@@ -56,7 +56,7 @@
     </section>
     <section class="section has-bg-img-left">
         <div class="container is-max-desktop has-border">
-            <h2 class="title is-4" v-text="t('therapyTitleThree')"></h2>
+            <h2 class="title is-5" v-text="t('therapyTitleThree')"></h2>
             <div class="block" v-text="t('therapyTextEight')"></div>
         </div>
     </section>

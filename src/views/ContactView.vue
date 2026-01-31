@@ -14,7 +14,7 @@
             <div class="block" v-text="t('contactTextTwo')"></div>
             <div class="columns is-centered has-text-centered mt-5">
                 <div class="column is-half">
-                    <p class="subtitle is-4">
+                    <p class="subtitle is-5">
                         <a href="tel:+31611803343" class="icon-text">
                             <span class="icon">
                                 <font-awesome-icon icon="fa-solid fa-phone" />
@@ -24,7 +24,7 @@
                     </p>
                 </div>
                 <div class="column is-half">
-                    <p class="subtitle is-4">
+                    <p class="subtitle is-5">
                         <a href="mailto:praktijk@sandra-postma.nl" class="icon-text">
                             <span class="icon">
                                 <font-awesome-icon icon="fa-regular fa-envelope" />

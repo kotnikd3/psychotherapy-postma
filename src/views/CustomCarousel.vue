@@ -2,7 +2,7 @@
     <div class="container is-max-desktop">
         <carousel :items-to-show="1" :autoplay="10000" wrap-around>
             <slide v-for="(text, index) in slides" :key="index">
-                <p class="subtitle is-5 has-text-orange is-italic" v-html="text"></p>
+                <p class="subtitle is-6 has-text-orange is-italic" v-html="text"></p>
             </slide>
             
             <template #addons>

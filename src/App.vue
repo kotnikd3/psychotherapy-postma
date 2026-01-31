@@ -5,7 +5,7 @@
                 <RouterLink class="navbar-item" :to="{ name: 'home' }" @click="isMenuActive = false;">
                     <img src="@/assets/images/logo.webp" alt="Sandra_Postma_logo">
                 </RouterLink>
-                <h1 class="navbar-item is-size-5" v-text="t('homeTitle')"></h1>
+                <h1 class="navbar-item" v-text="t('homeTitle')"></h1>
                 <a 
                     role="button" 
                     :class="['navbar-burger', { 'is-active' : isMenuActive }]"
@@ -106,7 +106,7 @@
                     </div>
                 </div>
             </div>
-            <div class="has-text-centered pt-6">
+            <div class="has-text-centered pt-2">
 				<p class="has-text-grey">Sandra Postma <font-awesome-icon icon="fa-regular fa-copyright" /> 2026</p>
 				<p style="font-size: x-small;"><i><a class="has-text-grey" href="https://www.kotnik.si" target="_blank"><span v-text="t('madeBy')"></span> kotnik.si</a></i></p>
 			</div>

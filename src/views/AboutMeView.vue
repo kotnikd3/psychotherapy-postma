@@ -6,13 +6,13 @@
         <div class="container">
             <div class="columns is-vcentered reverse-columns">
                 <!-- Column -->
-             	<div class="column has-text-centered">
+             	<div class="column is-golden-side has-text-centered">
                     <img class="img-main" src="@/assets/images/sandra_photo.webp" alt="Sandra_Postma">
                 </div>
                 <!-- Column -->
-                <div class="column">
-                    <h2 class="title is-4" v-text="t('about')"></h2>
-                    <h3 class="subtitle is-5" v-text="t('aboutQuote')"></h3>
+                <div class="column is-golden-main">
+                    <h2 class="title is-5" v-text="t('about')"></h2>
+                    <div class="block" v-text="t('aboutQuote')"></div>
                     <div class="block" v-text="t('aboutTextOne')"></div>
                     <div class="block has-bg-img-right" v-text="t('aboutTextTwo')"></div>
                     <div class="block" v-html="t('aboutTextThree')"></div>
