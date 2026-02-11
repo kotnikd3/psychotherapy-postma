@@ -77,7 +77,7 @@
                 this.isLoading = true;
                 
                 // service key, template key, form data, {public key}
-                emailjs.send('service_s6u0w2w', 'template_pxuq39a', this.form, {publicKey: 'V62KdOFyQ_XL6WTtd'})
+                emailjs.send('service_3w3cg7n', 'template_pxuq39a', this.form, {publicKey: 'V62KdOFyQ_XL6WTtd'})
                 .then(
                     () => {
                         console.log('Email sent!');
