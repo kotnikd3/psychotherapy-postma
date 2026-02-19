@@ -78,7 +78,7 @@
                     <h2><strong v-text="t('linkAndLegal')"></strong></h2>
                     <ul>
                         <li><a href="./static/privacy_beleid.pdf" target="_blank" rel="noopener noreferrer">Privacy Beleid</a></li>
-                        <li><a href="./static/voorwaarden.pdf" target="_blank" rel="noopener noreferrer">Algemene Voorwaarden</a></li>
+                        <li><a href="./static/voorwaarden_19_02_2026.pdf" target="_blank" rel="noopener noreferrer">Algemene Voorwaarden</a></li>
                         <li><a href="./static/document_vergoedingen_2026.pdf" target="_blank" rel="noopener noreferrer">Vergoedingen Zorgverzekeraars 2026</a></li>
                         <li><br></li>
                         <li>KvK-nummer: 71289232</li>
