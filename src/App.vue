@@ -45,7 +45,7 @@
         <div class="container">
             <div class="columns is-mobile is-multiline">
                 <div class="column is-half-mobile is-offset-2-desktop is-3-desktop">
-                    <h2><strong>Contact</strong></h2>
+                    <h3><strong>Contact</strong></h3>
                     <ul>
                         <li>
                             <a href="tel:+31611803343" class="icon-text">
@@ -75,7 +75,7 @@
                     </ul>
                 </div>
                 <div class="column is-half-mobile is-3-desktop">
-                    <h2><strong v-text="t('linkAndLegal')"></strong></h2>
+                    <h3><strong v-text="t('linkAndLegal')"></strong></h3>
                     <ul>
                         <li><a href="./static/privacy_beleid.pdf" target="_blank" rel="noopener noreferrer">Privacy Beleid</a></li>
                         <li><a href="./static/voorwaarden_19_02_2026.pdf" target="_blank" rel="noopener noreferrer">Algemene Voorwaarden</a></li>

@@ -23,7 +23,7 @@
     <!-- Welcome -->
     <section class="section">
         <div class="container is-max-desktop">
-            <h2 class="title is-5" v-text="t('welcomeTitle')"></h2>
+            <h3 class="title is-5" v-text="t('welcomeTitle')"></h3>
             <div class="block" v-text="t('welcomeTextOne')"></div>
             <div class="block has-text-weight-bold has-text-centered" v-text="t('welcomeTextTwo')"></div>
             <div class="block" v-text="t('welcomeTextThree')"></div>
@@ -35,7 +35,7 @@
     <!-- When can it help -->
     <section class="section">
         <div class="container is-max-desktop">
-            <h2 class="title is-5" v-text="t('whenCanItHelpTitle')"></h2>
+            <h3 class="title is-5" v-text="t('whenCanItHelpTitle')"></h3>
             <p v-text="t('whenCanItHelpText')"></p>
             <div class="content">
                 <ul>

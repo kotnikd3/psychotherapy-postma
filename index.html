@@ -1,46 +1,61 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
-  <head>
-    <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@type": "LocalBusiness",
-          "name": "Lichaamsgerichte Psychotherapie in Leeuwarden, Friesland",
-          "description": "Lichaamsgerichte psychotherapie in Leeuwarden, Friesland helpt je luisteren naar je lichaam en ontdekken wie je bent – in jezelf en in contact met anderen.",
-          "url": "https://sandra-postma.nl/",
-          "image": "https://sandra-postma.nl/static/logo.png",
-          "telephone": "+31 6 11803343",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "Aggemastate 224",
-            "addressLocality": "Leeuwarden",
-            "postalCode": "8926 PH",
-            "addressCountry": "NL"
-          },
-          "openingHours": "Mo-Fr 09:00-17:00",
-          "priceRange": "80€",
-          "sameAs": [
-            "https://www.linkedin.com/in/sandra-postma-426007254/",
-            "https://www.facebook.com/sandra.postma.75"
-          ],
-          "founder": {
-            "@type": "Person",
-            "name": "Sandra Postma",
-            "jobTitle": "Psychotherapeut"
-          }
-        }
-    </script>
-    <link rel="canonical" href="https://sandra-postma.nl/">
-    <meta name="google-site-verification" content="ZW55E0n2bMJiNGSI4fpgAwzQ04LyZAOm_nT2Vo-WA14" />
-    <meta charset="UTF-8">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
-    <meta name="description" content="Lichaamsgerichte psychotherapie in Leeuwarden, Friesland helpt je luisteren naar je lichaam en ontdekken wie je bent – in jezelf en in contact met anderen.">
-    <meta name="author" content="Denis Kotnik">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lichaamsgerichte psychotherapie in Leeuwarden, Friesland</title>
-  </head>
-  <body class="has-navbar-fixed-top">
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+    <head>
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@graph": [
+                    {
+                        "@type": "Person",
+                        "@id": "https://sandra-postma.nl/over",
+                        "name": "Sandra Postma",
+                        "description": "Sandra Postma is een psychotherapeut in Leeuwarden, gespecialiseerd in lichaamsgerichte psychotherapie en persoonlijke ontwikkeling."
+                        "jobTitle": "Psychotherapeut",
+                        "image": "https://sandra-postma.nl/static/sandra_postma.webp",
+                        "url": "https://sandra-postma.nl/",
+                        "sameAs": [
+                            "https://www.linkedin.com/in/sandra-postma-426007254/",
+                            "https://www.facebook.com/sandra.postma.75"
+                        ],
+                        "worksFor": {
+                            "@id": "https://sandra-postma.nl"
+                        }
+                    },
+                    {
+                        "@type": "Psychotherapeut",
+                        "@id": "https://sandra-postma.nl",
+                        "name": "Lichaamsgerichte Psychotherapie in Leeuwarden, Friesland",
+                        "description": "Lichaamsgerichte psychotherapie in Leeuwarden helpt cliënten luisteren naar hun lichaam, innerlijke patronen begrijpen en emotionele balans hervinden.",
+                        "image": "https://sandra-postma.nl/static/sandra_postma.webp",
+                        "url": "https://sandra-postma.nl/",
+                        "telephone": "+31 6 11803343",
+                        "priceRange": "€80",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Aggemastate 224",
+                            "addressLocality": "Leeuwarden",
+                            "postalCode": "8926 PH",
+                            "addressCountry": "NL"
+                        },
+                        "openingHours": "Mo-Fr 09:00-17:00",
+                        "founder": {
+                            "@id": "https://sandra-postma.nl/over"
+                        }
+                    }
+                ]
+            }
+        </script>
+        <link rel="canonical" href="https://sandra-postma.nl/">
+        <meta name="google-site-verification" content="ZW55E0n2bMJiNGSI4fpgAwzQ04LyZAOm_nT2Vo-WA14" />
+        <meta charset="UTF-8">
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
+        <meta name="description" content="Lichaamsgerichte psychotherapie in Leeuwarden, Friesland helpt je luisteren naar je lichaam en ontdekken wie je bent – in jezelf en in contact met anderen.">
+        <meta name="author" content="Sandra Postma">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lichaamsgerichte psychotherapie in Leeuwarden, Friesland</title>
+    </head>
+    <body class="has-navbar-fixed-top">
+        <div id="app"></div>
+        <script type="module" src="/src/main.js"></script>
+    </body>
 </html>

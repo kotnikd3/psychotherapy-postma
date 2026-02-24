@@ -7,13 +7,13 @@
             class="hero-bg-img"
         />
         <div class="hero-body container">
-            <h3 class="subtitle is-4 has-text-light" v-text="t('sessionsTitle')"></h3>
+            <h2 class="subtitle is-4 has-text-light" v-text="t('sessionsTitle')"></h2>
         </div>
     </section>
     <div class="section has-text-centered">
         <div class="container is-max-desktop">
             <div class="block">
-                <h2 class="title is-5" v-text="t('sessionsTitleTwo')"></h2>
+                <h3 class="title is-5" v-text="t('sessionsTitleTwo')"></h3>
                 <p class="has-text-weight-bold" v-text="t('sessionsTextTwo')"></p>
                 <ol>
                     <li v-text="t('sessionsTextTwoFirstPoint')"></li>
@@ -21,43 +21,43 @@
                 </ol>
             </div>
             <div class="block has-bg-img-left">
-                <h2 class="title is-5" v-text="t('sessionsTitleThree')"></h2>
+                <h3 class="title is-5" v-text="t('sessionsTitleThree')"></h3>
                 <p v-text="t('sessionsTextThree')"></p>
             </div>
             <div class="block has-bg-img-left">
-                <h2 class="title is-5" v-text="t('sessionsTitleThreeAndAHalf')"></h2>
+                <h3 class="title is-5" v-text="t('sessionsTitleThreeAndAHalf')"></h3>
                 <p v-text="t('sessionsTextThreeAndAHalf')"></p>
             </div>
             <div class="block">
-                <h2 class="title is-5" v-text="t('sessionsTitleFour')"></h2>
+                <h3 class="title is-5" v-text="t('sessionsTitleFour')"></h3>
                 <p v-text="t('sessionsTextFour')"></p>
             </div>
             <div class="block has-bg-img-right">
-                <h2 class="title is-5" v-text="t('sessionsTitleFive')"></h2>
+                <h3 class="title is-5" v-text="t('sessionsTitleFive')"></h3>
                 <p v-text="t('sessionsTextFive')"></p>
             </div>
             <div class="block">
-                <h2 class="title is-5" v-text="t('sessionsTitleSix')"></h2>
+                <h3 class="title is-5" v-text="t('sessionsTitleSix')"></h3>
                 <p v-html="t('sessionsTextSix')"></p>
             </div>
             <div class="block has-bg-img-left">
-                <h2 class="title is-5" v-text="t('sessionsTitleSeven')"></h2>
+                <h3 class="title is-5" v-text="t('sessionsTitleSeven')"></h3>
                 <p v-html="t('sessionsTextSeven')"></p>
             </div>
             <div class="block">
-                <h2 class="title is-5" v-text="t('sessionsTitleEight')"></h2>
+                <h3 class="title is-5" v-text="t('sessionsTitleEight')"></h3>
                 <p v-text="t('sessionsTextEight')"></p>
             </div>
             <div class="block">
-                <h2 class="title is-5" v-text="t('sessionsTitleEleven')"></h2>
+                <h3 class="title is-5" v-text="t('sessionsTitleEleven')"></h3>
                 <p v-text="t('sessionsTextEleven')"></p>
             </div>
             <div class="block has-bg-img-right">
-                <h2 class="title is-5" v-text="t('sessionsTitleNine')"></h2>
+                <h3 class="title is-5" v-text="t('sessionsTitleNine')"></h3>
                 <p v-html="t('sessionsTextNine')"></p>
             </div>
             <div class="block">
-                <h2 class="title is-5" v-text="t('sessionsTitleTen')"></h2>
+                <h3 class="title is-5" v-text="t('sessionsTitleTen')"></h3>
                 <p v-html="t('sessionsTextTen')"></p>
             </div>
         </div>
