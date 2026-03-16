@@ -7,7 +7,7 @@
             <div class="columns is-vcentered reverse-columns">
                 <!-- Column -->
              	<div class="column is-golden-side has-text-centered">
-                    <img class="img-main" src="@/assets/images/sandra_photo.webp" alt="Sandra_Postma">
+                    <img class="img-main" src="@/assets/images/sandra_photo.webp" alt="Sandra_Postma" style="box-shadow: 0 0 10px 2px #516594;">
                 </div>
                 <!-- Column -->
                 <div class="column is-golden-main">
