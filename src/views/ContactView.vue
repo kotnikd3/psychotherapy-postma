@@ -13,7 +13,7 @@
             <div class="block" v-text="t('contactTextOne')"></div>
             <div class="block" v-text="t('contactTextTwo')"></div>
             <div class="columns is-centered has-text-centered mt-5">
-                <div class="column is-half">
+                <!-- <div class="column is-half">
                     <p class="subtitle is-5">
                         <a href="tel:+31611803343" class="icon-text">
                             <span class="icon">
@@ -22,8 +22,8 @@
                             <span>+31 6 11 80 33 43</span>
                         </a>
                     </p>
-                </div>
-                <div class="column is-half">
+                </div> -->
+                <div class="column is-full">
                     <p class="subtitle is-5">
                         <a href="mailto:praktijk@sandra-postma.nl" class="icon-text">
                             <span class="icon">

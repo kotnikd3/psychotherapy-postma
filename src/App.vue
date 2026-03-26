@@ -47,14 +47,14 @@
                 <div class="column is-half-mobile is-offset-2-desktop is-3-desktop">
                     <h3><strong>Contact</strong></h3>
                     <ul>
-                        <li>
+                        <!-- <li>
                             <a href="tel:+31611803343" class="icon-text">
                                 <span class="icon">
                                     <font-awesome-icon icon="fa-solid fa-phone" />
                                 </span>
                                 <span>+31 6 11 80 33 43</span>
                             </a>
-                        </li>
+                        </li> -->
                         <li>
                             <a href="mailto:praktijk@sandra-postma.nl" class="icon-text">
                                 <span class="icon">
