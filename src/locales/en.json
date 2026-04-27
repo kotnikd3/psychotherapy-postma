@@ -9,6 +9,8 @@
   "submit": "Submit",
   "notificationEmailSuccess": "Your message has been sent successfully!",
   "notificationEmailError": "Error: your message has not been sent.",
+  "phone": "Phone",
+  "phonePlaceholder": "Phone number (not obligated, but my e-mails sometimes end-up in the spam folder)",
   "madeBy": "Made By",
   "linkAndLegal": "Links & Juridisch",
   "quoteOne": "\"I don't know where to start\"",

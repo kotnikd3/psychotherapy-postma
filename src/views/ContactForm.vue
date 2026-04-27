@@ -18,6 +18,16 @@
                 </span>
             </div>
         </div>
+        <!-- Phone -->
+        <div class="field">
+            <label class="label" v-text="t('phone')"></label>
+            <div class="control has-icons-left">
+                <input class="input" type="tel" :placeholder="t('phonePlaceholder')" v-model="form.phone">
+                <span class="icon is-small is-left">
+                    <font-awesome-icon icon="fa-solid fa-phone" />
+                </span>
+            </div>
+        </div>
         <!-- Message -->
         <div class="field">
             <label class="label" v-text="t('message')"></label>
@@ -60,6 +70,7 @@
                     name: '',
                     email: '',
                     message: '',
+                    phone: ''
                 },
                 notificationSuccess: {
                     show: false,
@@ -77,7 +88,7 @@
                 this.isLoading = true;
                 
                 // service key, template key, form data, {public key}
-                emailjs.send('service_3w3cg7n', 'template_pxuq39a', this.form, {publicKey: 'V62KdOFyQ_XL6WTtd'})
+                emailjs.send('service_s6u0w2w', 'template_pxuq39a', this.form, {publicKey: 'V62KdOFyQ_XL6WTtd'})
                 .then(
                     () => {
                         console.log('Email sent!');
@@ -86,7 +97,7 @@
                         this.notificationSuccess.show = true;
 
                         // Reset form after success
-                        this.form = { name: '', email: '', message: '' };
+                        this.form = { name: '', email: '', message: '', phone: '' };
                     },
                     (error) => {
                         console.log('Error: ', error.text);

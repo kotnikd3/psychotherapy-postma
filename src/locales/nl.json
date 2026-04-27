@@ -9,6 +9,8 @@
     "submit": "Indienen",
     "notificationEmailSuccess": "Uw bericht is succesvol verzonden!",
     "notificationEmailError": "Error: uw bericht is niet verzonden.",
+    "phone": "Telefoonnummer",
+    "phonePlaceholder": "Telefoonnummer (niet verplicht, maar mijn e-mails komen soms in de spamfolder terecht)",
     "madeBy": "Gemaakt door",
     "linkAndLegal": "Links & Juridisch",
     "quoteOne": "\"Ik weet niet waar ik moet beginnen.\"",
