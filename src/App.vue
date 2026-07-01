@@ -65,7 +65,7 @@
                         </li>
                         <li><br></li>
                         <li>
-                            <a href="https://maps.app.goo.gl/3fghiDh3cu374CdS6" target="_blank" rel="noopener noreferrer" class="icon-text">
+                            <a href="https://maps.app.goo.gl/S5p3iRL47HS2mxTK9" target="_blank" rel="noopener noreferrer" class="icon-text">
                                 <span class="icon">
                                     <font-awesome-icon icon="fa-solid fa-location-dot" />
                                 </span>
