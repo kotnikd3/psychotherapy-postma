@@ -69,7 +69,7 @@
                                 <span class="icon">
                                     <font-awesome-icon icon="fa-solid fa-location-dot" />
                                 </span>
-                                <span>Sandra Postma<br>Aggemastate 224<br>Leeuwarden</span>
+                                <span>Sandra Postma<br>Ypeijstraat 27<br>8933 DT, Leeuwarden</span>
                             </a>
                         </li>
                     </ul>
