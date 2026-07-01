@@ -65,11 +65,11 @@
                         </li>
                         <li><br></li>
                         <li>
-                            <a href="https://maps.app.goo.gl/puWVcqQAqXQXC9kG9" target="_blank" rel="noopener noreferrer" class="icon-text">
+                            <a href="https://maps.app.goo.gl/3fghiDh3cu374CdS6" target="_blank" rel="noopener noreferrer" class="icon-text">
                                 <span class="icon">
                                     <font-awesome-icon icon="fa-solid fa-location-dot" />
                                 </span>
-                                <span>Sandra Postma<br>Ypeijstraat 27<br>8933 DT Leeuwarden</span>
+                                <span>Sandra Postma<br>Aggemastate 224<br>Leeuwarden</span>
                             </a>
                         </li>
                     </ul>
