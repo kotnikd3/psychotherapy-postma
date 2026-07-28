@@ -72,7 +72,7 @@
     "sessionsTitleSix": "Tarieven",
     "sessionsTextSix": "Het eerste intakegesprek kost <b class='is-size-6'>40 euro</b>.<br>Het tweede intakegesprek en ook alle daaropvolgende sessies kosten <b class='is-size-6'>80 euro</b>.<br>Alle afspraken duren <b class='is-size-6'>60 minuten</b>. ",
     "sessionsTitleSeven": "Vergoeding",
-    "sessionsTextSeven": "Sessies worden deels vergoed vanuit de aanvullende zorgverzekering. Bekijk <a href=\"./static/document_vergoedingen_2025.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">hier</a> het document waar je per verzekering kan kijken wat de vergoedingen zijn.",
+    "sessionsTextSeven": "Sessies worden deels vergoed vanuit de aanvullende zorgverzekering. Bekijk <a href=\"./static/{document}\" target=\"_blank\" rel=\"noopener noreferrer\">hier</a> het document waar je per verzekering kan kijken wat de vergoedingen zijn.",
     "sessionsTitleEight": "Locatie",
     "sessionsTextEight": "De praktijk is aan huis in Leeuwarden op de Ypeijstraat 27. In de straat kan je gratis parkeren en er zijn twee bushaltes op ca. 10 minuten lopen.",
     "sessionsTitleNine": "Beroepsvereniging",

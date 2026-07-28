@@ -72,7 +72,7 @@
   "sessionsTitleSix": "Fees",
   "sessionsTextSix": "The first intake interview costs <b class='is-size-6'>40 euro</b>.<br>The second intake interview and also all the following sessions cost <b class='is-size-6'>80 euro</b>.<br>All appointments last <b class='is-size-6'>60 minutes</b>.",
   "sessionsTitleSeven": "Reimbursement",
-  "sessionsTextSeven": "Sessions are partially reimbursed through supplementary health insurance. View <a href=\"./static/document_vergoedingen_2025.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">here</a> to check the reimbursements per insurance provider.",
+  "sessionsTextSeven": "Sessions are partially reimbursed through supplementary health insurance. View <a href=\"./static/{document}\" target=\"_blank\" rel=\"noopener noreferrer\">here</a> to check the reimbursements per insurance provider.",
   "sessionsTitleEight": "Location",
   "sessionsTextEight": "The practice is located at Ypeijstraat 27, Leeuwarden. Free parking is available on the street, and there are two bus stops about a 10-minute walk away.",
   "sessionsTitleNine": "Professional Association",

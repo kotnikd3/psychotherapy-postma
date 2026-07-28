@@ -42,7 +42,7 @@
             </div>
             <div class="block has-bg-img-left">
                 <h3 class="title is-5" v-text="t('sessionsTitleSeven')"></h3>
-                <p v-html="t('sessionsTextSeven')"></p>
+                <p v-html="t('sessionsTextSeven', { document: 'document_vergoedingen_2026.pdf' })"></p>
             </div>
             <div class="block">
                 <h3 class="title is-5" v-text="t('sessionsTitleEight')"></h3>
