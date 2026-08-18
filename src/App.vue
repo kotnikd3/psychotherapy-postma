@@ -24,7 +24,7 @@
             <div id="navMenu" :class="['navbar-menu', { 'is-active' : isMenuActive }]">
                 <div class="navbar-end">
                     <RouterLink class="navbar-item" :to="{ name: 'home' }" @click="isMenuActive = false;">Home</RouterLink>
-                    <RouterLink class="navbar-item" :to="{ name: 'therapy' }" v-text="t('homeSubtitle')" @click="isMenuActive = false;"></RouterLink>
+                    <RouterLink class="navbar-item" :to="{ name: 'therapy' }" v-text="t('homeTab')" @click="isMenuActive = false;"></RouterLink>
                     <RouterLink class="navbar-item" :to="{ name: 'sessions' }" v-text="t('sessions')" @click="isMenuActive = false;"></RouterLink>
                     <RouterLink class="navbar-item" :to="{ name: 'about' }" v-text="t('about')" @click="isMenuActive = false;"></RouterLink>
                     <RouterLink class="navbar-item" :to="{ name: 'contact' }" @click="isMenuActive = false;">Contact</RouterLink>
