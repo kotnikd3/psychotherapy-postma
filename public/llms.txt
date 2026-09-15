@@ -1,0 +1,18 @@
+# Psychotherapie Sandra Postma
+
+> Website van de psychotherapiepraktijk van Sandra Postma.
+
+Deze website geeft informatie over Sandra Postma, haar therapeutische werkwijze, therapie en praktische informatie over sessies.
+
+## Belangrijkste pagina’s
+
+- [Psychotherapie Sandra Postma](https://sandra-postma.nl/): Startpagina en introductie van de praktijk.
+- [Over](https://sandra-postma.nl/over): Informatie over Sandra Postma en haar professionele achtergrond.
+- [Therapie](https://sandra-postma.nl/therapie): Informatie over therapie en de therapeutische werkwijze.
+- [Sessies](https://sandra-postma.nl/sessies): Praktische informatie over sessies.
+
+## Aanvullend
+
+- [Sitemap](https://sandra-postma.nl/sitemap.xml): Overzicht van de openbare pagina’s van de website.
+
+De informatie op deze website is algemeen en vervangt geen individuele professionele beoordeling, diagnose of spoedeisende hulp.
