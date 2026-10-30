@@ -1,8 +1,9 @@
 <template>
     <div class="container is-max-desktop">
+        <h2 class="title is-5" v-text="t('aboutExperienceTitle')"></h2>
         <carousel :items-to-show="1" :autoplay="10000" wrap-around>
             <slide v-for="(text, index) in slides" :key="index">
-                <p class="subtitle is-6 has-text-orange is-italic" v-html="text"></p>
+                <p :lang="index === 1 ? 'nl' : 'en'" class="subtitle is-6 has-text-orange is-italic" v-html="text"></p>
             </slide>
             
             <template #addons>
@@ -14,16 +15,17 @@
 </template>
   
 <script setup>
+    import { computed } from 'vue';
     import { useI18n } from 'vue-i18n';
     import 'vue3-carousel/dist/carousel.css';
     import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel';
 
     const { t } = useI18n();
     
-    const slides = [
+    const slides = computed(() => [
         t('aboutExperienceQuoteOne'),
         t('aboutExperienceQuoteTwo'),
-    ]
+    ])
 </script>
 
 <style lang="scss">

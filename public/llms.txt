@@ -10,6 +10,15 @@ Deze website geeft informatie over Sandra Postma, haar therapeutische werkwijze,
 - [Over](https://sandra-postma.nl/over): Informatie over Sandra Postma en haar professionele achtergrond.
 - [Therapie](https://sandra-postma.nl/therapie): Informatie over therapie en de therapeutische werkwijze.
 - [Sessies](https://sandra-postma.nl/sessies): Praktische informatie over sessies.
+- [Contact](https://sandra-postma.nl/contact): Contactgegevens en het contactformulier.
+
+## English
+
+- [Sandra Postma](https://sandra-postma.nl/en/): Practice introduction.
+- [Therapy](https://sandra-postma.nl/en/therapy): Body-oriented psychotherapy.
+- [Sessions](https://sandra-postma.nl/en/sessions): Sessions, fees and reimbursement.
+- [About](https://sandra-postma.nl/en/about): Sandra Postma's background and training.
+- [Contact](https://sandra-postma.nl/en/contact): Practice details and contact form.
 
 ## Aanvullend
 

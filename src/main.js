@@ -1,21 +1,26 @@
 import '@/assets/style.scss'
+import { createApplication } from './app'
+import { getPageHead } from './seo'
 
-// FontAwesome
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faCopyright, faEnvelope, faFile } from '@fortawesome/free-regular-svg-icons'
-import { faLocationDot, faPhone } from '@fortawesome/free-solid-svg-icons'
+const target = document.querySelector('#app')
+const { app, router } = createApplication({ hydrate: target.hasChildNodes() })
 
-library.add(faCopyright, faEnvelope, faLocationDot, faFile, faPhone)
+function updateHead(route) {
+	if (!route.matched.length) return
+	const head = getPageHead(route)
+	document.documentElement.lang = head.lang
+	document.title = head.title
+	document.head.querySelectorAll('[data-page-seo]').forEach(element => element.remove())
+	for (const element of head.elements) {
+		const node = document.createElement(element.type)
+		for (const [name, value] of Object.entries(element.props)) node.setAttribute(name, value)
+		if (element.children) node.textContent = element.children
+		document.head.append(node)
+	}
+}
 
-import { createApp } from 'vue'
-import App from '@/App.vue'
-import router from '@/router'
-
-import i18n from '@/plugins/i18n';
-
-const app = createApp(App).component('font-awesome-icon', FontAwesomeIcon);
-
-app.use(i18n);
-app.use(router);
-app.mount('#app');
+router.afterEach(updateHead)
+router.isReady().then(() => {
+	updateHead(router.currentRoute.value)
+	app.mount(target)
+})

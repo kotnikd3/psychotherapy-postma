@@ -14,6 +14,10 @@ export default [
   },
 
   js.configs.recommended,
+  {
+    files: ['src/**/*.{js,vue}'],
+    languageOptions: { globals: { document: 'readonly', console: 'readonly' } },
+  },
   ...pluginVue.configs['flat/essential'],
   skipFormatting,
 ]

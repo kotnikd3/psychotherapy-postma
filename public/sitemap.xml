@@ -1,23 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-	<loc>https://sandra-postma.nl/</loc>
-	<lastmod>2025-02-24T19:00:07+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
-<url>
-	<loc>https://sandra-postma.nl/over</loc>
-	<lastmod>2025-02-24T19:00:07+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://sandra-postma.nl/therapie</loc>
-	<lastmod>2025-02-24T19:00:07+01:00</lastmod>
-	<priority>0.7</priority>
-</url>
-<url>
-	<loc>https://sandra-postma.nl/sessies</loc>
-	<lastmod>2025-02-24T19:00:07+01:00</lastmod>
-	<priority>0.7</priority>
-</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://sandra-postma.nl/</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://sandra-postma.nl/therapie</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://sandra-postma.nl/sessies</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://sandra-postma.nl/over</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://sandra-postma.nl/contact</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://sandra-postma.nl/en/</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://sandra-postma.nl/en/therapy</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://sandra-postma.nl/en/sessions</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://sandra-postma.nl/en/about</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://sandra-postma.nl/en/contact</loc><lastmod>2026-10-30</lastmod></url>
 </urlset>
